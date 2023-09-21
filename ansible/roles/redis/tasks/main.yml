@@ -2,7 +2,7 @@
 # tasks file for redis
 - name: change the data dir ownership
   file:
-    path: /data
+    path: /redis-data
     state: directory
     owner: "{{ redis_user }}"
     group: "{{ redis_user }}"
