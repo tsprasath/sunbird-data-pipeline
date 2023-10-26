@@ -4,6 +4,10 @@ content_snapshot_path: "/mount/data/analytics/content-snapshot"
 content_snapshot_jar_path: "{{content_snapshot_path}}/jars" # Add content snapshot jar file path.
 content_snapshot_jar_name: "etl-jobs-1.0.jar"
 content_snapshot_distribuction_name: "etl-jobs-1.0-distribution.tar.gz"
+
+cloud_storage_url: "https://bmzbbujw9kal.compat.objectstorage.ap-mumbai-1.oraclecloud.com"
+sunbird_public_storage_account_endpoint: "{{cloud_storage_url}}"
+
 spark_home: "/mount/data/analytics/spark-3.1.3-bin-hadoop2.7/"
 redis:
   host: "{{metadata2_redis_host}}" # Redis DP IP
