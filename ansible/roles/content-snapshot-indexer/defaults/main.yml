@@ -44,7 +44,8 @@ elastic_search:
 
 cloud_storage:
   container: "odev-dev-diksha-telemetry" # Container is different in all env so override this.
-  object_key: "druid-content-snapshot/snapshot.txt"
+  #object_key: "druid-content-snapshot/snapshot.txt"
+  object_key: "vdn_content_model_snapshot/snapshot.txt"
   provider: "oci"
   account_name: "{{sunbird_public_storage_account_name}}"
   account_key: "{{sunbird_public_storage_account_key}}"
