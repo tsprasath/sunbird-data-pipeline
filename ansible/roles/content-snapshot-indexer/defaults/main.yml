@@ -53,7 +53,8 @@ cloud_storage:
   provider: "oci"
   account_name: "{{sunbird_public_storage_account_name}}"
   account_key: "{{sunbird_public_storage_account_key}}"
-  account_endpoint: "{{sunbird_public_storage_account_endpoint}}"
+  #account_endpoint: "{{sunbird_public_storage_account_endpoint}}"
+  account_endpoint: "https://bmzbbujw9kal.compat.objectstorage.ap-mumbai-1.oraclecloud.com"
 
 cassandra:
   host: "{{lp_cassandra_host}}" ## LMS-Cassandra IP Address.
